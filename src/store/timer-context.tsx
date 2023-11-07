@@ -55,7 +55,7 @@ export function useTimerContext() {
 /*Managing the state for different methods using useReducer */
 
 const initialState: TimersState = {
-    isRunning: false,
+    isRunning: true,
     timers: []
 }
 
